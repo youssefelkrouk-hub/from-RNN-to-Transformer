@@ -5,6 +5,21 @@ Notebook PyTorch qui compare **RNN, LSTM et Transformer** sur la prédiction d'u
 📓 Notebook : `AP4_Architecture_Transformer.ipynb`
 
 ---
+## . Plan du notebook
+
+![Architecture du notebook](attention%20is%20all%20you%20need/Notebookarch.jpg)
+
+| Partie | Contenu |
+|---|---|
+| 1 | Série `sin(x)`, fenêtre glissante (longueur 10), DataLoader |
+| 2 | RNN (16 unités) |
+| 3 | LSTM (16 unités) |
+| 4 | Transformer *from scratch* + comparaison des 3 modèles |
+| 5 | GPT : attention causale (mini-GPT + `distilgpt2`) |
+| 6 | BERT : `fill-mask` (`[MASK] est la capitale du Maroc.`) |
+
+---
+
 
 ## 1. Contexte : l'IA générative
 
@@ -26,20 +41,6 @@ Notebook PyTorch qui compare **RNN, LSTM et Transformer** sur la prédiction d'u
 
 ---
 
-## 4. Plan du notebook
-
-![Architecture du notebook](attention%20is%20all%20you%20need/Notebookarch.jpg)
-
-| Partie | Contenu |
-|---|---|
-| 1 | Série `sin(x)`, fenêtre glissante (longueur 10), DataLoader |
-| 2 | RNN (16 unités) |
-| 3 | LSTM (16 unités) |
-| 4 | Transformer *from scratch* + comparaison des 3 modèles |
-| 5 | GPT : attention causale (mini-GPT + `distilgpt2`) |
-| 6 | BERT : `fill-mask` (`[MASK] est la capitale du Maroc.`) |
-
----
 
 ## 5. Lancer le projet
 
